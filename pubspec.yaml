@@ -1,0 +1,48 @@
+name: professional_guitar_tuner
+description: A professional guitar tuner app with advanced pitch detection algorithms.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Audio recording and playback
+  flutter_sound: ^9.2.13
+
+  # Permissions handling
+  permission_handler: ^10.4.3
+
+  # Audio session management
+  audio_session: ^0.1.16
+
+  # Persistent storage for settings
+  shared_preferences: ^2.2.0
+
+  # Keep screen awake during tuning
+  wakelock_plus: ^1.1.1
+
+  # UI icons
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add custom fonts if needed
+  # fonts:
+  #   - family: RobotoMono
+  #     fonts:
+  #       - asset: fonts/RobotoMono-Regular.ttf
+  #       - asset: fonts/RobotoMono-Bold.ttf
+  #         weight: 700
+
+# Platform-specific configurations
